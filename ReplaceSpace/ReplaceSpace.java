@@ -4,21 +4,24 @@ package ReplaceSpace;
  * Created by Dillon on 4/25/2016.
  */
 public class ReplaceSpace {
-    public static void main(String[] args){
-        char[] input = "Mr John Smith    ".toCharArray();
-        for (char c : input){
-            System.out.print(c);
-        }
-        System.out.println();
-     //   System.out.println(Arrays.toString(input));
-        ReplaceSpace stringManipulator = new ReplaceSpace();
-        stringManipulator.replaceSpace(input, 13);
-      // System.out.println(Arrays.toString(input));
-        for (char c : input){
-            System.out.print(c);
-        }
-        System.out.println();
-    }
+
+    // MAIN FUNCTION OBSOLETE - driver class demos functionality, main no longer needed within class
+
+//    public static void main(String[] args){
+//        char[] input = "Mr John Smith    ".toCharArray();
+//        for (char c : input){
+//            System.out.print(c);
+//        }
+//        System.out.println();
+//     //   System.out.println(Arrays.toString(input));
+//        ReplaceSpace stringManipulator = new ReplaceSpace();
+//        stringManipulator.replaceSpace(input, 13);
+//      // System.out.println(Arrays.toString(input));
+//        for (char c : input){
+//            System.out.print(c);
+//        }
+//        System.out.println();
+//    }
 
     public void replaceSpace(char[] input, int length){
         int spaceCount = 0, newLength, i;

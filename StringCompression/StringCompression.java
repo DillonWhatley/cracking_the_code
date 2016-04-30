@@ -42,24 +42,25 @@ public class StringCompression {
     }
 
 
+    // MAIN FUNCTION OBSOLETE - driver class demos functionality, main no longer needed within class
 
-    public static void main(String[] args){
-
-        StringCompression tester = new StringCompression();
-        // String where compression should be preffered
-        String compressable = "aabbbbccdddaba";
-        // String where compression technique should be longer and hence not preferred
-        String uncompressable = "abcdefghijkl";
-
-        System.out.println("The following string should contain numbers, as its compressed:");
-        // Should print out compressed version of the given string
-        System.out.println(tester.compress(compressable));
-
-        System.out.println();
-
-        System.out.println("The following string should not contain numbers, as that would be longer than the input:");
-        // Should print out uncompressed  version of the given string
-        System.out.println(tester.compress(uncompressable));
-
-    }
+//    public static void main(String[] args){
+//
+//        StringCompression tester = new StringCompression();
+//        // String where compression should be preffered
+//        String compressable = "aabbbbccdddaba";
+//        // String where compression technique should be longer and hence not preferred
+//        String uncompressable = "abcdefghijkl";
+//
+//        System.out.println("The following string should contain numbers, as its compressed:");
+//        // Should print out compressed version of the given string
+//        System.out.println(tester.compress(compressable));
+//
+//        System.out.println();
+//
+//        System.out.println("The following string should not contain numbers, as that would be longer than the input:");
+//        // Should print out uncompressed  version of the given string
+//        System.out.println(tester.compress(uncompressable));
+//
+//    }
 }

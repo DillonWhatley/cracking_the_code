@@ -16,45 +16,46 @@ public class CircularArray<T> implements Iterable<T> {
         items = theArray;
     }
 
-    public static void main(String[] args) {
+    // MAIN FUNCTION OBSOLETE - driver class demos functionality, main no longer needed within class
 
-        // Test data
-        Integer[] tester = new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
-        String[] testTwo = new String[] {"bob", "sagget", "testing", "okay", "now", "rotate", "this", "please"};
-        int position = 11;
-        CircularArray<Integer> worker = new CircularArray<Integer>(tester);
-        CircularArray<String> workerTwo = new CircularArray<String>(testTwo);
-
-        // Print out original array
-        for (int i = 0; i < tester.length; i++) {
-            System.out.print(tester[i] + ", ");
-        }
-        System.out.println();
-        for (Object o : workerTwo) {
-            System.out.print(o + ", ");
-        }
-
-        // Rotate array at chosen position, i.e 5 for the 5th element
-        worker.rotateArray(position);
-        workerTwo.rotateArray(6);
-
-        // Print out rotated array
-        System.out.println();
-        for (int i = 0; i < tester.length; i++) {
-            System.out.print(tester[i] + ", ");
-        }
-        System.out.println();
-
-        // Proof that iterator works
-        for (Object o : worker) {
-            System.out.print(o + ", ");
-        }
-        System.out.println();
-        for (Object o : workerTwo) {
-            System.out.print(o + ", ");
-        }
-
-    }
+//    public static void main(String[] args) {
+//
+//        // Test data
+//        Integer[] tester = new Integer[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
+//        String[] testTwo = new String[] {"bob", "sagget", "testing", "okay", "now", "rotate", "this", "please"};
+//        int position = 11;
+//        CircularArray<Integer> worker = new CircularArray<Integer>(tester);
+//        CircularArray<String> workerTwo = new CircularArray<String>(testTwo);
+//
+//        // Print out original array
+//        for (int i = 0; i < tester.length; i++) {
+//            System.out.print(tester[i] + ", ");
+//        }
+//        System.out.println();
+//        for (Object o : workerTwo) {
+//            System.out.print(o + ", ");
+//        }
+//
+//        // Rotate array at chosen position, i.e 5 for the 5th element
+//        worker.rotateArray(position);
+//        workerTwo.rotateArray(6);
+//
+//        // Print out rotated array
+//        System.out.println();
+//        for (int i = 0; i < tester.length; i++) {
+//            System.out.print(tester[i] + ", ");
+//        }
+//        System.out.println();
+//
+//        // Proof that iterator works
+//        for (Object o : worker) {
+//            System.out.print(o + ", ");
+//        }
+//        System.out.println();
+//        for (Object o : workerTwo) {
+//            System.out.print(o + ", ");
+//        }
+//   }
 
     // Rotates the array at a given position
     public void rotateArray(int position) {

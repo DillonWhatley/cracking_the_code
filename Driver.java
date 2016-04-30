@@ -84,19 +84,19 @@ public class Driver {
         // Compress a given string of characters, example aabbbc becomes a2b3c1
 //        StringCompression tester = new StringCompression();
 //        // String where compression should be preffered
-//        String compressable = "aabbbbccdddaba";
+//        String compressible = "aabbbbccdddaba";
 //        // String where compression technique should be longer and hence not preferred
-//        String uncompressable = "abcdefghijkl";
+//        String incompressible = "abcdefghijkl";
 //
 //        System.out.println("The following string should contain numbers, as its compressed:");
 //        // Should print out compressed version of the given string
-//        System.out.println(tester.compress(compressable));
+//        System.out.println(tester.compress(compressible));
 //
 //        System.out.println();
 //
 //        System.out.println("The following string should not contain numbers, as that would be longer than the input:");
 //        // Should print out uncompressed  version of the given string
-//        System.out.println(tester.compress(uncompressable));
+//        System.out.println(tester.compress(incompressible));
 
 
         // ************************************************ 14.6 *****************************************************
